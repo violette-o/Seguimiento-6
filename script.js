@@ -2,9 +2,9 @@ let lista = document.querySelector(".list");
 
 for (let i = 1; i < 827; i++){
     let title = `character ${i}`
-    let mensaje = `Esta es la publicación número ${i}. Esto es una prueba de generación de rellenopor medio de funciones y ciclos.`
+    let message = `Esta es la publicación número ${i}. Esto es una prueba de generación de rellenopor medio de funciones y ciclos.`
     let imageUrl = `https://rickandmortyapi.com/api/character/avatar/${i}.jpeg`
-    let div = createPost(title,Message,imageUrl)
+    let div = createPost(title,message,imageUrl)
     lista.append(div)
 }
 
