@@ -12,7 +12,7 @@ function createPost(name,message,imageUrl){
   let div = document.createElement("div")
   div.className = "character"
   let imagen = document.createElement("img")
-  imagen.setAttribute("src",imageUrl )
+  imagen.setAttribute("src", imageUrl )
   imagen.className = "image"
   div.appendChild(imagen)
   let character_name = document.createElement("h1")
